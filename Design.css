@@ -697,7 +697,65 @@ form btn2{
     padding: -50px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--main-color);
+    border-collapse: collapse;
+    width: 100%;
 
+    }
+
+    tr{
+        border: 1px solid black;
+    }
+     th {
+        border: 1px solid var(--main-color);
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    background-color: var(--thirdcolor);
+    color: white;
+    }
+
+    td{
+    border: 1px solid var(--main-color);
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    }
+
+    tr:nth-child(even) {
+    background-color: white;
+    }
+    td a .dl{
+        border: 2px solid var(--main-color);
+        padding: 5px;
+        border-radius: 15px;
+        background: white;
+        text-align: center;
+        width: 250px;
+        margin: auto;
+        text-decoration: none;
+        color: var(--main-color);
+        font-weight: 700;
+    }
+    td a .dl:hover{
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 15px;
+        background: var(--main-color);
+        color: white;
+        font-weight: 700;
+    }
+
+.snaTab span{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
 
 
 
